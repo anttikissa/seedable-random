@@ -1,0 +1,7 @@
+#!/usr/bin/env node 
+// vim: set ft=javascript:
+
+var random = require('./index');
+
+console.log(random());
+

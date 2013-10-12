@@ -1,0 +1,17 @@
+{
+  "name": "seedable-random",
+  "version": "0.0.1",
+  "description": "Seedable replacement for Math.random",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": "",
+  "keywords": [
+    "seedable",
+    "random",
+    "prng"
+  ],
+  "author": "Antti Sykäri",
+  "license": "BSD"
+}
