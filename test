@@ -2,6 +2,8 @@
 // vim: set ft=javascript:
 
 var random = require('./index');
+var assert = require('basic-assert');
 
-console.log(random());
+random.seed(123);
+assert.is(random(), 123);
 

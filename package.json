@@ -4,7 +4,7 @@
   "description": "Seedable replacement for Math.random",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "./test"
   },
   "repository": "",
   "keywords": [
@@ -13,5 +13,8 @@
     "prng"
   ],
   "author": "Antti Sykäri",
-  "license": "BSD"
+  "license": "BSD",
+  "devDependencies": {
+    "basic-assert": "~0.2.2"
+  }
 }
