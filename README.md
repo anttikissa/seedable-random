@@ -10,6 +10,7 @@
 ## As a `Math.random` replacement
 
 	Math.random = require('seedable-random');
+	Math.random.seed(12345);
 
 - Works as a drop-in for `Math.random`
 
